@@ -1,6 +1,8 @@
-## Import Random Library ##
+# main.py
 import random
-n = random.randrange(1,10)
-#User Input
-guess = int(input("Please enter any number between 1 - 10: "))
+
+# define range and max_attempts
+lower_bound = 1
+upper_bound = 1000
+max_attempts = 10
 
