@@ -16,6 +16,9 @@ Guess the Number python
 
 ### Bugs
 
+
+![pybugs2](https://github.com/webzz99/GuessTheNumberPy/assets/11245795/92a75e81-50b2-4951-b471-595143757f1b)
+
 #### Solved Bugs 
 
 #### Remaning Bugs 
