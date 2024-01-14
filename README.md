@@ -23,10 +23,15 @@ Guess the Number python
 
 #### Remaning Bugs 
 
+All Bugs have been resolved. 
+
 #### Validator Testing 
+
+![PEP8check](https://github.com/webzz99/GuessTheNumberPy/assets/11245795/26a8529b-c24f-404d-8e7d-4ffc014aebb3)
 
 ## Deployment 
 
 ## Credits 
 
+https://www.online-ide.com/online_python_syntax_checker
 
