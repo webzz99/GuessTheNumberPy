@@ -11,75 +11,75 @@ Guessing Range:
 The game has a predefined guessing range between lower_bound and upper_bound.
 For example, if lower_bound is 1 and upper_bound is 1000, you'll need to guess a number between 1 and 1000.
 
-##### Making a Guess:
+#### Making a Guess:
 The app will prompt you to enter your guess with a message like "Guess a number between [lower_bound] and [upper_bound]:"
 Enter a numerical guess within the specified range.
 
-##### Validation:
+#### Validation:
 The app validates your guess. If your input is outside the range or not a valid number, you'll be prompted to enter a valid number.
 
-##### Feedback:
+#### Feedback:
 After each guess, the app will provide feedback on whether your guess is correct or not.
 If your guess is correct, you'll receive a congratulatory message like "Congratulations! You guessed correctly [secret_num] in [attempts] attempts."
 If your guess is too low or too high, you'll be informed accordingly.
 
-##### Game Over:
+#### Game Over:
 The game continues until you either guess the correct number or exhaust all your attempts.
 If you run out of attempts without guessing correctly, the app will reveal the correct number and inform you that you've lost.
 
-##### End of Game:
+#### End of Game:
 The app will display a message indicating whether you won or lost.
 If you wish to play again, simply refresh the page or navigate to the provided Heroku app link.
 
-##### Enjoy the Game!
+#### Enjoy the Game!
 The Number Guessing Game is designed for fun and entertainment. Challenge yourself to make strategic guesses and see how quickly you can find the correct number. If you have any questions or encounter issues, feel free to reach out.
 ## Features 
 
 ### Existing Features 
 
-##### Dynamic Welcome Message:
+#### Dynamic Welcome Message:
 Upon launching the game, users are greeted with a dynamic welcome message, creating an inviting and engaging start to the game.
 
-##### Randomly Generated Secret Number:
+#### Randomly Generated Secret Number:
 The game generates a random secret number within the specified range, adding an element of unpredictability and ensuring a unique experience in each round.
 
-##### Interactive Guessing Process:
+#### Interactive Guessing Process:
 Users actively participate in the guessing process by entering their guesses. The game provides immediate feedback on whether the guess is correct or needs adjustment.
 
-##### Limited Attempts:
+#### Limited Attempts:
 To add a challenge, the game limits the number of attempts (max_attempts) users have to guess the correct number. This introduces a strategic element, encouraging thoughtful guesses.
 
-##### Feedback on Guesses:
+#### Feedback on Guesses:
 The game offers feedback on each guess, informing users whether their guess is correct, too low, or too high. This interactive feedback guides users in making subsequent guesses.
 
-##### Winning Scenario:
+#### Winning Scenario:
 If users guess the correct number within the allowed attempts, the game congratulates them and displays the number of attempts it took to win.
 
-##### Losing Scenario:
+#### Losing Scenario:
 If users exhaust all attempts without guessing correctly, the game reveals the correct number and informs users that they've run out of attempts.
 
-##### Heroku App Deployment:
+#### Heroku App Deployment:
 The game is deployed as a Heroku app, allowing easy access for users without the need for local installation. Users can play the game directly through the provided Heroku app link.
 
 ### Future Features 
 
-##### Difficulty Levels:
+#### Difficulty Levels:
 Introduce different difficulty levels with varying ranges and maximum attempts, catering to players of different skill levels. For example, easy mode (1-100 with 15 attempts), medium mode (1-500 with 10 attempts), and hard mode (1-1000 with 7 attempts).
 
-##### Leaderboard:
+#### Leaderboard:
 Implement a leaderboard to track the best-performing players based on the number of attempts or time taken to guess the correct number. This adds a competitive element and encourages friendly competition among players.
 
-##### User Accounts:
+#### User Accounts:
 Allow users to create accounts and log in, providing a personalized gaming experience. User accounts could store historical game data, including the number of wins, losses, and average attempts.
 
-##### Hint System:
+#### Hint System:
 Implement a hint system to assist players who may be struggling. Hints could provide information about whether the correct number is higher or lower than the previous guess.
 
 ## Data Model 
 
 ## Testing 
 
-###### I manually tested my code by doing the following: 
+#### I manually tested my code by doing the following: 
 
 I validated my code using the PEP8 standard and successfully resolved the identified indentation errors. During the coding process, I encountered issues related to indentation, which have now been rectified, ensuring the code adheres to PEP8 standards and functions correctly.
 
