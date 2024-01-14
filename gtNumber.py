@@ -20,3 +20,22 @@ def player_guess():
                 print("Oh No!! This number is out of range !!. Please enter a number within the range.")
         except ValueError:
             print("Oh !! That's Not a Number !! . Please enter a number in range.")
+            
+# Check player guess 
+def check_guess(guess, secret_num):
+    if guess == secret_num:
+        return "Woohoo That's Correct!!!"
+    elif guess < secret_num:
+        return "That Number is Too low"
+    else:
+        return "That Number is Too high"
+    
+# Game play - Track number of guesses and check if game is over 
+def game_play():
+    attempts = 0
+    won = False
+
+    while attempts < max_attempts:
+        attempts += 1
+        guess = get_guess()
+        result = check_guess(guess, secret_num)
