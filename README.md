@@ -1,6 +1,6 @@
 # GuessTheNumberPy
 
-##Welcome to the Number Guessing Game!
+## Welcome to the Number Guessing Game!
 
 
 ## How to play 
@@ -79,18 +79,25 @@ Implement a hint system to assist players who may be struggling. Hints could pro
 
 ## Testing 
 
+###### I manually tested my code by doing the following: 
+
+I validated my code using the PEP8 standard and successfully resolved the identified indentation errors. During the coding process, I encountered issues related to indentation, which have now been rectified, ensuring the code adheres to PEP8 standards and functions correctly.
+
+To ensure the robustness of the code, I rigorously tested it by playing the game three times. In each iteration, I deliberately input letters and symbols to test the validation mechanism, confirmed that the code properly recognized and handled such inputs. Additionally, I tested the range validation by inputting numbers beyond the specified range. Lastly, I verified that the maximum number of attempts, set at 10, was enforced. The code successfully passed all these tests, demonstrating its reliability and adherence to the intended functionality.
+
 ### Bugs
 
+#### Solved Bugs 
+During the project development, I encountered a few indentation issues on specific lines of code. I meticulously addressed each indentation problem, ensuring that the project executed as intended. Below is an image illustrating some of the indentation errors that were identified and subsequently rectified.
 
 ![pybugs2](https://github.com/webzz99/GuessTheNumberPy/assets/11245795/92a75e81-50b2-4951-b471-595143757f1b)
 
-#### Solved Bugs 
-
 #### Remaning Bugs 
-
-All Bugs have been resolved. 
+* All Bugs have been resolved. 
 
 #### Validator Testing 
+
+* No errors where returned
 
 ![PEP8check](https://github.com/webzz99/GuessTheNumberPy/assets/11245795/26a8529b-c24f-404d-8e7d-4ffc014aebb3)
 
