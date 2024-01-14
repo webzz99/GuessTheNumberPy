@@ -37,7 +37,43 @@ The Number Guessing Game is designed for fun and entertainment. Challenge yourse
 
 ### Existing Features 
 
+##### Dynamic Welcome Message:
+Upon launching the game, users are greeted with a dynamic welcome message, creating an inviting and engaging start to the game.
+
+##### Randomly Generated Secret Number:
+The game generates a random secret number within the specified range, adding an element of unpredictability and ensuring a unique experience in each round.
+
+##### Interactive Guessing Process:
+Users actively participate in the guessing process by entering their guesses. The game provides immediate feedback on whether the guess is correct or needs adjustment.
+
+##### Limited Attempts:
+To add a challenge, the game limits the number of attempts (max_attempts) users have to guess the correct number. This introduces a strategic element, encouraging thoughtful guesses.
+
+##### Feedback on Guesses:
+The game offers feedback on each guess, informing users whether their guess is correct, too low, or too high. This interactive feedback guides users in making subsequent guesses.
+
+##### Winning Scenario:
+If users guess the correct number within the allowed attempts, the game congratulates them and displays the number of attempts it took to win.
+
+##### Losing Scenario:
+If users exhaust all attempts without guessing correctly, the game reveals the correct number and informs users that they've run out of attempts.
+
+##### Heroku App Deployment:
+The game is deployed as a Heroku app, allowing easy access for users without the need for local installation. Users can play the game directly through the provided Heroku app link.
+
 ### Future Features 
+
+##### Difficulty Levels:
+Introduce different difficulty levels with varying ranges and maximum attempts, catering to players of different skill levels. For example, easy mode (1-100 with 15 attempts), medium mode (1-500 with 10 attempts), and hard mode (1-1000 with 7 attempts).
+
+##### Leaderboard:
+Implement a leaderboard to track the best-performing players based on the number of attempts or time taken to guess the correct number. This adds a competitive element and encourages friendly competition among players.
+
+##### User Accounts:
+Allow users to create accounts and log in, providing a personalized gaming experience. User accounts could store historical game data, including the number of wins, losses, and average attempts.
+
+##### Hint System:
+Implement a hint system to assist players who may be struggling. Hints could provide information about whether the correct number is higher or lower than the previous guess.
 
 ## Data Model 
 
