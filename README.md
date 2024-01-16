@@ -81,6 +81,7 @@ Allow users to create accounts and log in, providing a personalized gaming exper
 Implement a hint system to assist players who may be struggling. Hints could provide information about whether the correct number is higher or lower than the previous guess.
 
 ## Data Model 
+The data model for the Guess the Number game includes components such as game state, player information, and game status. The game state comprises the target number, the player's attempts, and the maximum allowed attempts. Player information includes the player's name and score. Game status indicates whether the game is over and the result (win, lose, or in progress). The model is represented in a simple Python class, allowing for the initialization of a game, making guesses, and retrieving the current game status. The example usage demonstrates how the model can be employed in a basic Guess the Number game implementation.
 
 ## Testing 
 
