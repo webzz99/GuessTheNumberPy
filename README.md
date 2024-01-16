@@ -2,6 +2,8 @@
 
 ## Welcome to the Number Guessing Game!
 
+Live Link to Heroku app: https://guessthenumber-7f379b9f1be6.herokuapp.com/
+
 
 ## How to play 
 
@@ -36,6 +38,7 @@ The Number Guessing Game is designed for fun and entertainment. Challenge yourse
 ## Features 
 
 ### Existing Features 
+![image](https://github.com/webzz99/GuessTheNumberPy/assets/11245795/2f48bc0f-6556-4532-82b0-eb3afabf8aa9)
 
 #### Dynamic Welcome Message:
 Upon launching the game, users are greeted with a dynamic welcome message, creating an inviting and engaging start to the game.
@@ -102,8 +105,17 @@ During the project development, I encountered a few indentation issues on specif
 ![PEP8check](https://github.com/webzz99/GuessTheNumberPy/assets/11245795/26a8529b-c24f-404d-8e7d-4ffc014aebb3)
 
 ## Deployment 
+This project was deployed using Code Institute's mock terminal for Heroku.
+
+The steps for deployment are as follows:
+
+* Fork or clone this repository
+* Create a new Heroku app
+* Set the buildpacks to Python and NodeJS in that order
+* Link the Heroku app to the repository
+* Click on Deploy
 
 ## Credits 
-
-https://www.online-ide.com/online_python_syntax_checker
+* This project uses the Code Institute student template for deploying the third portfolio project, the Python command-line project.
+* https://www.online-ide.com/online_python_syntax_checker
 
