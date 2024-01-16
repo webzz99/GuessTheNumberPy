@@ -3,6 +3,7 @@
 ## Welcome to the Number Guessing Game!
 
 Live Link to Heroku app: https://guessthenumber-7f379b9f1be6.herokuapp.com/
+Live Link to Git Repo: https://github.com/webzz99/GuessTheNumberPy.git
 
 
 ## How to play 
